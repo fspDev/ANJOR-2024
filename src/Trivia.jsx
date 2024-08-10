@@ -17,9 +17,9 @@ function Trivia() {
       respuestaCorrecta: 'Ambas son correctas'
     },
     {
-      pregunta: '¿Cómo mantener la concentración en viajes largos?',
-      opciones: ['No hidratarse para evitar paradas', 'Mantener una temperatura fresca en la cabina', 'Consumir alcohol para mantenerse despierto'],
-      respuestaCorrecta: 'Mantener una temperatura fresca en la cabina'
+      pregunta: '¿Que color predomina en las señales de Reglamentación?',
+      opciones: ['Amarillo', 'Azul', 'Rojo'],
+      respuestaCorrecta: 'Rojo'
     },
     {
       pregunta: '¿Cuál es la velocidad límite en travesías urbanas?',
@@ -55,13 +55,14 @@ function Trivia() {
   return (
     <div className="TriviaContainer">
       <p className='Titulo-principal'>SEGURIDAD EN LAS RUTAS</p>
+      <p className='Titulos'>RESPONDÉ Y GANÁ!</p>
       {/*<img src={logo} className="App-logo" alt="logo" />*/}
       {/* Renderiza el mensaje de resultado o la pregunta actual */}
       {mensaje ? (
         <p className='Mensaje'>{mensaje}</p>
       ) : (
         <div className="Tarjeta">
-          <p className='Titulos'>RESPONDÉ Y GANÁ!</p>
+          
           {/* Muestra la pregunta actual y las opciones */}
           <p className='Pregunta'>{preguntas[preguntaActual].pregunta}</p>
           <div className="Opciones">

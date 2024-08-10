@@ -97,7 +97,7 @@ function Ruleta() {
 
       {/* Barra inferior con los botones de girar y regresar */}
       <div className="barraInferior">
-        <button className="BotonRegresar" onClick={lanzar}>
+        <button className="BotonGirar" onClick={lanzar}>
           Girar
         </button>
         <button className="BotonRegresar" onClick={handleRegresar}>Regresar</button>
