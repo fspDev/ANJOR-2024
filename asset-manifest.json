@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/ANJOR-2024/static/css/main.b9f0a58e.css",
-    "main.js": "/ANJOR-2024/static/js/main.951b326d.js",
+    "main.js": "/ANJOR-2024/static/js/main.fbdd5c41.js",
     "static/js/453.1b2cfe1d.chunk.js": "/ANJOR-2024/static/js/453.1b2cfe1d.chunk.js",
     "static/media/ruleta.png": "/ANJOR-2024/static/media/ruleta.a3a8d46b7f4950f9fe3a.png",
     "static/media/logo.png": "/ANJOR-2024/static/media/logo.0287faac5c365498ad9a.png",
     "static/media/centro.png": "/ANJOR-2024/static/media/centro.17db7f996b76513218f5.png",
     "index.html": "/ANJOR-2024/index.html",
     "main.b9f0a58e.css.map": "/ANJOR-2024/static/css/main.b9f0a58e.css.map",
-    "main.951b326d.js.map": "/ANJOR-2024/static/js/main.951b326d.js.map",
+    "main.fbdd5c41.js.map": "/ANJOR-2024/static/js/main.fbdd5c41.js.map",
     "453.1b2cfe1d.chunk.js.map": "/ANJOR-2024/static/js/453.1b2cfe1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9f0a58e.css",
-    "static/js/main.951b326d.js"
+    "static/js/main.fbdd5c41.js"
   ]
 }
